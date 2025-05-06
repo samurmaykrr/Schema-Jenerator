@@ -1,0 +1,27 @@
+[package]
+name = "schema-jenerator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A CLI tool to generate JSON Schema from JSON input"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/yourusername/schema-jenerator"
+keywords = ["json", "schema", "cli", "generator"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "1.0"
+log = "0.4"
+env_logger = "0.10"
+jsonschema-valid = "0.5"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.0"
+tempfile = "3.8"
+test-case = "3.1"
