@@ -1,0 +1,32 @@
+{
+  "id": 12345,
+  "username": "john_doe",
+  "email": "john.doe@example.com",
+  "profile": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 28,
+    "isActive": true,
+    "bio": "Software developer passionate about JSON schemas",
+    "avatar": "https://example.com/avatar.jpg"
+  },
+  "preferences": {
+    "theme": "dark",
+    "notifications": {
+      "email": true,
+      "push": false,
+      "sms": null
+    },
+    "privacy": {
+      "publicProfile": true,
+      "showEmail": false
+    }
+  },
+  "tags": ["developer", "json", "rust"],
+  "scores": [95, 87, 92, 78],
+  "metadata": {
+    "createdAt": "2024-01-15T10:30:00Z",
+    "lastLogin": "2024-06-20T14:45:30Z",
+    "loginCount": 247
+  }
+}

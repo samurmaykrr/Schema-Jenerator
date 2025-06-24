@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "timestamp": "2024-06-24T12:00:00Z",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "active": true,
+        "roles": ["admin", "user"]
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "active": false,
+        "roles": ["user"]
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "pageSize": 10,
+      "totalPages": 5,
+      "totalRecords": 42,
+      "hasNext": true,
+      "hasPrevious": false
+    }
+  },
+  "errors": null,
+  "warnings": [
+    "Deprecated field 'legacy_id' will be removed in v2.0"
+  ],
+  "meta": {
+    "version": "1.5.2",
+    "requestId": "req-abc123",
+    "processingTime": 0.045
+  }
+}

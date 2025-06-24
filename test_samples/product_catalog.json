@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 199.99,
+      "currency": "USD",
+      "inStock": true,
+      "quantity": 150,
+      "specifications": {
+        "brand": "TechBrand",
+        "model": "WH-1000",
+        "color": "Black",
+        "weight": 250,
+        "features": ["Bluetooth 5.0", "Noise Cancellation", "30hr Battery"]
+      },
+      "ratings": {
+        "average": 4.5,
+        "count": 1247,
+        "distribution": {
+          "5": 823,
+          "4": 312,
+          "3": 89,
+          "2": 15,
+          "1": 8
+        }
+      }
+    },
+    {
+      "id": "prod-002",
+      "name": "Coffee Mug",
+      "category": "Home & Kitchen",
+      "price": 12.99,
+      "currency": "USD",
+      "inStock": false,
+      "quantity": 0,
+      "specifications": {
+        "brand": "CeramicCraft",
+        "model": "CM-15",
+        "color": "White",
+        "capacity": "350ml",
+        "material": "Ceramic"
+      },
+      "ratings": {
+        "average": 4.2,
+        "count": 89,
+        "distribution": {
+          "5": 45,
+          "4": 32,
+          "3": 8,
+          "2": 3,
+          "1": 1
+        }
+      }
+    }
+  ],
+  "totalCount": 2,
+  "categories": ["Electronics", "Home & Kitchen"],
+  "lastUpdated": "2024-06-24T09:15:00Z"
+}
