@@ -3,12 +3,20 @@ name = "schema-jenerator"
 version = "0.1.0"
 edition = "2021"
 authors = ["Your Name <your.email@example.com>"]
-description = "A CLI tool to generate JSON Schema from JSON input"
+description = "A CLI tool and library to generate JSON Schema from JSON input"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/yourusername/schema-jenerator"
-keywords = ["json", "schema", "cli", "generator"]
-categories = ["command-line-utilities"]
+keywords = ["json", "schema", "cli", "generator", "library"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "schema-jenerator"
+path = "src/main.rs"
+
+[lib]
+name = "schema_jenerator"
+path = "src/lib.rs"
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
@@ -23,6 +31,7 @@ jsonschema-valid = "0.5"
 jsonschema = "0.17"
 glob = "0.3"
 toml = "0.8"
+
 
 [dev-dependencies]
 assert_cmd = "2.0"
